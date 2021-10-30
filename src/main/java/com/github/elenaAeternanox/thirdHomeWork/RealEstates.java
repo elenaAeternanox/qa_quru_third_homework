@@ -43,46 +43,4 @@ public class RealEstates {
             System.out.println("");
         }
     }
-
-    public static void main(String[] args) {
-
-        Apart firstApart = new Apart();
-        firstApart.id = 1;
-        firstApart.address = "First apart's address";
-        firstApart.price = 235678;
-        firstApart.square = 34.5;
-        firstApart.numberOfRooms = 1;
-        firstApart.sold = false;
-
-        Apart secondApart = new Apart();
-        secondApart.id = firstApart.id + 1;
-        secondApart.address = "Second apart's address";
-        secondApart.price = 435678;
-        secondApart.square = 54.5;
-        secondApart.numberOfRooms = 3;
-        secondApart.sold = false;
-
-        House firstHouse = new House();
-        firstHouse.id = 1;
-        firstHouse.address = "First house's address";
-        firstHouse.areaSquare = 176.3;
-        firstHouse.price = 784356;
-        firstHouse.square = 75.2;
-        firstHouse.numberOfRooms = 3;
-        firstHouse.sold = true;
-
-        House secondHouse = new House();
-        secondHouse.id = firstHouse.id + 1;
-        secondHouse.address = "Second house's address";
-        secondHouse.areaSquare = 176.3;
-        secondHouse.price = 1234567;
-        secondHouse.square = 175.2;
-        secondHouse.numberOfRooms = 5;
-        secondHouse.sold = true;
-
-        firstApart.apartDescription();
-        secondApart.apartDescription();
-        firstHouse.houseDescription();
-        secondHouse.houseDescription();
-    }
 }
